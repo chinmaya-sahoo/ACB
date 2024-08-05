@@ -1,0 +1,23 @@
+.flex{
+    display: flex;
+}
+
+.fd_col{
+    flex-direction: column;
+}
+
+.just_cen{
+    justify-content: center;
+}
+
+.align_cen{
+    align-items: center;
+}
+
+.round{
+    border-radius: 50%;
+}
+
+.d_non{
+    display: none;
+}
