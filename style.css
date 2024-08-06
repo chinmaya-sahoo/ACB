@@ -28,6 +28,7 @@ body{
     border-radius: 10px;
     padding: 20px;
     gap: 15px;
+    justify-content: space-between;
 }
 /* side bar section start */
 .side_bar{
@@ -80,16 +81,17 @@ body{
 .suction_meter{
     padding: 20px 0;
     width: 300px;
-    height: 40vh;
+    height: 35vh;
     /* width: 10%; */
     background: rgb(206, 197, 236);
     /* flex-direction: column; */
     /* justify-content: space-between; */
-    /* border-radius: 10px; */
+    border-radius: 10px;
 }
 
 .suction_meter .head{
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    gap: 180px;
 }
 
 /* .head{
@@ -106,8 +108,28 @@ body{
     height: 12px;
 }
 
+.meter_image img{
+    width: 150px;
+    z-index: -1;
+}
 
+.details{
+    width: 260px;
+    /* justify-content: space-between; */
+    gap: 20px;
+}
 
+.details p{
+    text-align: center;
+    font-size: 13px;
+}
+
+.details .plus , .minus{
+    height: 35px;
+    width: 25px;
+    background-color: white;
+    border-radius: 10px;
+}
 .battery{
     width: 300px;
     height: 50vh;
